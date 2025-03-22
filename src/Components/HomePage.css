@@ -5,7 +5,9 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../assets/images/homepage/mainbg.png")
+    background-image: url("../assets/images/homepage/mainbg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 .homepage-text {
@@ -14,10 +16,12 @@
     margin-left: 50px;
 }
 
-.big-text {
+.homepage-big-text {
+    margin-top: 200px;
     font-size: 64pt;
     font-weight: bold;
     color: white;
+    line-height: 64pt;
 }
 
 .image-holder {

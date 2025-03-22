@@ -8,7 +8,7 @@ const HomePage = () => {
       <TopNav />
       <div className="homepage-bg-image" />
       <div className="homepage-text">
-        <p className="big-text">
+        <p className="homepage-big-text">
           YOUR FITNESS
           <br />
           YOUR WAY

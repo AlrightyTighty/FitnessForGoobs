@@ -10,7 +10,7 @@ const TopNav = () => {
       <div className="right-content">
         <Link to="/">Account</Link>
         <Link to="/">Community</Link>
-        <Link to="/">Exercises</Link>
+        <Link to="/exercises">Exercises</Link>
       </div>
     </div>
   );
