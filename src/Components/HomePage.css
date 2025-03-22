@@ -1,0 +1,31 @@
+.homepage-bg-image {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../assets/images/homepage/mainbg.png")
+}
+
+.homepage-text {
+    font-family: open-sans;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.big-text {
+    font-size: 64pt;
+    font-weight: bold;
+    color: burlywood;
+}
+
+.image-holder {
+    overflow: hidden;
+}
+
+.little-text {
+    width: 800px;
+    font-size: 24pt;
+    color: rgb(254, 156, 26);
+}
