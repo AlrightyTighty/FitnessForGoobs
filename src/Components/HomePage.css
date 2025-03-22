@@ -17,7 +17,7 @@
 .big-text {
     font-size: 64pt;
     font-weight: bold;
-    color: burlywood;
+    color: white;
 }
 
 .image-holder {
@@ -27,5 +27,6 @@
 .little-text {
     width: 800px;
     font-size: 24pt;
-    color: rgb(254, 156, 26);
+    color: white;
+    font-weight:bold;
 }

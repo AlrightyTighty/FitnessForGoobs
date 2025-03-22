@@ -1,0 +1,70 @@
+.exercises-bg-image {
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../assets/images/exercisepage/background.png");
+    background-size: 100vw 100vh;
+}
+
+.main-body-content {
+    display: flex;
+    margin-top: 120px;
+    width: 100vw;
+}
+
+.exercise-list-area {
+    width: 40%;
+}
+
+.results-text {
+    margin-left: 30px;
+    font-family: open-sans;
+    font-size: 32pt;
+}
+
+.exercise-info-area {
+    width:50%;
+}
+
+.exercise-list {
+    display: block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    width: 50vw;
+    
+}
+
+.exercise-list li {
+  margin: 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center
+}
+
+.exercise-list li div {
+  margin-left: 10px;
+}
+
+.big-text{
+  font-size: 20pt;
+  line-height: 20pt;
+}
+
+.small-text {
+  font-size:12pt;
+}
+
+body {
+  color: white;
+}
