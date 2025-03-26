@@ -100,7 +100,7 @@ const Exercises = () => {
   const [exercises, setExercises] = useState([] as Exercise[]);
   const [selectedExercise, setSelectedExercise] = useState(null as Exercise | null);
   const equipmentFilter = useRef(EquipmentFilter.NONE);
-  const primaryMusclesFilter = useRef(PrimaryMuscleFilter.NONE);
+  const primaryMusclesFilter = useRef(PrimaryMuscleFilter.GLUTES);
   const difficultyFilter = useRef(LevelFilter.NONE);
 
   useEffect(() => {
@@ -112,7 +112,7 @@ const Exercises = () => {
 
     console.log(searchParams);
 
-    fetch("http://104.198.31.122:3001/exercises?" + searchParams, {
+    fetch("http://localhost:3001/exercises?" + searchParams, {
       method: "GET",
     })
       .then((results) => {
