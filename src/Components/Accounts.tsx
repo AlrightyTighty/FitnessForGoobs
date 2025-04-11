@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import TopNav from "./TopNav";
 
 interface AccountInfo {
   id: string;
@@ -22,6 +23,10 @@ const Accounts = () => {
 
   return (
     <>
+    <TopNav/>
+    <div>
+      
+    </div>
       name: {accountInfo.name} {accountInfo.username} <br />
       email: {accountInfo.email}
     </>
